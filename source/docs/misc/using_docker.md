@@ -2,7 +2,7 @@
 
 Want to test an application without installing all the dependencies on your system? How about Containers?
 
-![Docker Comic](assets/docker.jpg)
+![Docker Comic](../assets/docker.jpg)
 
 Docker is a container engine that provides a command-line interface for managing containers and images. UAFs do not give you access to Docker, we instead use Podman which is an alternative to Docker and offers a rootless, lightweight and secure container runtime environment. To maintain familiarity, the 'docker' command these machines is aliased to 'podman', ensuring users can use their usual Docker commands seamlessly.
 

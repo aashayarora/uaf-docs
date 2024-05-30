@@ -39,4 +39,18 @@ ed25519 is a modern elliptic curve algorithm that offers several advantages over
 
 Please note that the instructions provided here are for generating SSH keys on a Unix-like system. If you are using a different operating system, refer to the documentation or consult the relevant resources for instructions specific to your platform.
 
+## Accessing the UAFs via SSH
+
+Once you have been granted access, follow these steps to login:
+
+1. **Open a Terminal**: On your local machine, open a terminal or command prompt.
+2. **SSH Command**: Use the `ssh` command followed by your username and the cluster's hostname. For example:
+   ```sh
+   ssh your_username@uaf-1.t2.ucsd.edu
+   ```
+3. **Authentication**: When prompted, enter your password. If you have set up SSH keys, ensure your public key is added to the cluster's authorized keys.
+4. **Session Management**: Once logged in, you can navigate the cluster's file system, run commands, and manage your files. Use `exit` to end your SSH session.
+
+For a list of machines available, please refer to the section on Machine Specs.
+
 If you have any further questions or need assistance, please feel free to reach out to t2support at t2support@physics.ucsd.edu
